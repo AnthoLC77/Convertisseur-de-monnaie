@@ -1,0 +1,64 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(
+    178.4deg,
+    rgba(77, 88, 105, 1) 4.8%,
+    rgba(39, 43, 57, 1) 86.7%
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.44);
+    width: 60%;
+}
+
+.bloc-conversion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 1.5em;
+}
+
+#bloc-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+label, .result {
+    color: wheat;
+    font-size: 1.8em;
+}
+
+input, button {
+    padding: 15px;
+    width: 40%;
+}
+
+input {
+    font-size: 1em;
+}
+
+
+
